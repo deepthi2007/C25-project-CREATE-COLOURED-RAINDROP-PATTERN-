@@ -9,10 +9,7 @@ var rain=[];
 var rainImg, drop;
 var maxDrops=300;
 
-function preload(){
-  dropImg=loadImage("drop.png");
-  cubeImg=loadImage("cube.png");
-}
+
 
 function setup() {
   createCanvas(800,400);
